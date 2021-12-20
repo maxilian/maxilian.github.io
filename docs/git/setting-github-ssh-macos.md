@@ -12,7 +12,7 @@ ls -al ~/
 mkdir ~/.ssh && cd ~/.ssh
 ```
 
-3. Gunakan perintah ssh-keygen untuk men-generate ssh key
+3. Gunakan perintah ssh-keygen untuk men-generate ssh key, system akan men-generate 2 buah file yaitu public key dan private key. public key adalah file dengan extensi .pub
 ```
 ssh-keygen -t ed25519 -C "email_yang_digunakan@digithub.com"
 ```
