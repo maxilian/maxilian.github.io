@@ -41,12 +41,13 @@ Beberapa masalah yang sering ditemui apabila menggunakan ssh github karena kesal
 
     a. hapus folder .git didalam local repo
 
-        ```
+        
         rm -rf .git
-        ```
-    
+        
+        
     b. inisialisasi kembali repo menggunakan perintah 
 
-        ```
+        
         git remote add origin git@github.com:nama_user/nama_repo.git
-        ```
+        
+        
