@@ -38,7 +38,15 @@ ssh-add ~/.ssh/nama_key
 Beberapa masalah yang sering ditemui apabila menggunakan ssh github karena kesalahan user.
 
 1. Ketika melakukan ```git push```, system meminta untuk memasukkan user dan password github, seharusnya langkah ini tidak perlu lagi dilakukan karena sudah di ```authentificate``` menggunakan ssh. Biasanya terjadi karena clonning repository menggunakan protokol https bukan lewat ssh. Jika terjadi lakukan langkah berikut.
-    a) hapus folder .git didalam local repo
-    ```rm -rf .git```
-    b) inisialisasi kembali repo menggunakan perintah 
-    ```git remote add origin git@github.com:nama_user/nama_repo.git```
+
+    a* hapus folder .git didalam local repo
+
+    ```
+    rm -rf .git
+    ```
+    
+    b* inisialisasi kembali repo menggunakan perintah 
+
+    ```
+    git remote add origin git@github.com:nama_user/nama_repo.git
+    ```
